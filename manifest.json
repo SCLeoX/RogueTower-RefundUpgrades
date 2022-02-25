@@ -1,7 +1,7 @@
 {
   "name": "Refund_Upgrades",
-  "description": "Allows the player to refund upgrades",
-  "version_number": "1.0.0",
+  "description": "Allows the player to refund upgrades, one-at-a-time.",
+  "version_number": "1.0.1",
   "dependencies": [
     "bbepis-BepInEx_Rogue_Tower-5.4.1900"
   ],

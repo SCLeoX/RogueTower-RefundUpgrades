@@ -7,14 +7,14 @@ using UnityEngine.UI;
 
 namespace RogueTower_RefundUpgrades
 {
-    [BepInPlugin("me.tepis.roguetower.refundupgrades", "Refund Upgrades", "1.0.0")]
+    [BepInPlugin("me.tepis.roguetower.refundupgrades", "Refund Upgrades", "1.0.1")]
     public class Plugin : BaseUnityPlugin
     {
         internal static ManualLogSource Log;
         private void Awake()
         {
             Log = Logger;
-            var harmony = new Harmony("com.company.project.product");
+            var harmony = new Harmony("me.tepis.roguetower.refundupgrades");
             harmony.PatchAll();
             Log.LogInfo("Plugin me.tepis.roguetower.refundupgrades is loaded!");
         }
